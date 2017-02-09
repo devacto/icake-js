@@ -13,11 +13,9 @@ to
 ```
 {
     "Matthew": {
-        orders: [
-            {name: "ice-cream", price: 5, quantity: 2},
+        orders: [{name: "ice-cream", price: 5, quantity: 2},
             {name: "book", price: 5, quantity: 3},
-            {name: "computer", price: 10, quantity: 1}
-            ], 
+            {name: "computer", price: 10, quantity: 1}], 
         total: 40
     }
 }
