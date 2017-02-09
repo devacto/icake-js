@@ -5,11 +5,18 @@
   "main": "index.js",
   "author": "Victor Wibisono",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/babel-cli/bin/babel-node.js 1-text2obj/index.js --presets es2015,stage-2"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:devacto/icake-js.git"
   },
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
     "codeclimate-test-reporter": "^0.3.1",
     "istanbul": "^0.4.3",
     "jscs": "^3.0.3",
