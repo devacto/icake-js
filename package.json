@@ -6,7 +6,7 @@
   "author": "Victor Wibisono",
   "license": "MIT",
   "scripts": {
-    "start": "./bin/test.sh && ./node_modules/babel-cli/bin/babel-node.js 1-text2obj/index.js --presets es2015,stage-2"
+    "start": "./bin/test.sh && ./node_modules/babel-cli/bin/babel-node.js 1-text2obj/index.js --presets es2015,stage-2 && ./node_modules/babel-cli/bin/babel-node.js 2-currying/index.js --presets es2015,stage-2"
   },
   "repository": {
     "type": "git",
